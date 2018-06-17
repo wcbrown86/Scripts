@@ -12,7 +12,6 @@ def on_special_copy():
         Terminal.push_to_clipboard(from_clipboard)
     else:
         create_popup_edit(from_clipboard)
-        print('You Have to much text')
 
 
 def check_char_count(input):
@@ -28,6 +27,8 @@ def check_char_count(input):
 def create_popup_edit(input):
     popup = PopupWindows(input)
     window = popup.create_window()
+    window.setTitle("Test")
+    window.show()
 
 
 on_special_copy()

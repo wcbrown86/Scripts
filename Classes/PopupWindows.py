@@ -13,6 +13,4 @@ class PopupWindows:
         app = QtGui.QGuiApplication(sys.argv)
         window = QtGui.QWindow()
         window.setGeometry(0, 0, 500, 300)
-        window.setTitle("Test")
-        window.show()
         return window
