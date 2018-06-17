@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dfcff163-e4d1-4e08-bb07-b7a593ec2fda" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/CodeCopy.py" beforeDir="false" afterPath="$PROJECT_DIR$/CodeCopy.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Classes/Terminal_Commands.py" beforeDir="false" afterPath="$PROJECT_DIR$/Classes/Terminal_Commands.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -13,11 +13,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="CodeCopy.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CodeCopy.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CodeCopy.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="276">
-              <caret line="64" column="59" selection-start-line="64" selection-start-column="59" selection-end-line="64" selection-end-column="59" />
+              <caret line="64" column="58" selection-start-line="64" selection-start-column="58" selection-end-line="64" selection-end-column="58" />
               <folding>
                 <element signature="e#0#46#0" expanded="true" />
               </folding>
@@ -37,14 +37,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Terminal_Commands.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Terminal_Commands.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Classes/Terminal_Commands.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="95" selection-start-line="15" selection-start-column="95" selection-end-line="15" selection-end-column="95" />
-              <folding>
-                <element signature="e#0#9#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="276">
+              <caret line="29" column="88" selection-start-line="29" selection-start-column="88" selection-end-line="29" selection-end-column="88" />
             </state>
           </provider>
         </entry>
@@ -66,14 +63,14 @@
       <list>
         <option value="$PROJECT_DIR$/Terminal_Commands.py" />
         <option value="$PROJECT_DIR$/venv/Classes/__init__.py" />
-        <option value="$PROJECT_DIR$/Classes/Terminal_Commands.py" />
         <option value="$PROJECT_DIR$/Main.py" />
         <option value="$PROJECT_DIR$/Classes/PopupWindows.py" />
         <option value="$PROJECT_DIR$/CodeCopy.py" />
+        <option value="$PROJECT_DIR$/Classes/Terminal_Commands.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="23" />
     <option name="y" value="65" />
     <option name="width" value="1400" />
@@ -215,9 +212,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="15" column="95" selection-start-line="15" selection-start-column="95" selection-end-line="15" selection-end-column="95" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -244,9 +238,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="15" column="95" lean-forward="true" selection-start-line="15" selection-start-column="95" selection-end-line="15" selection-end-column="95" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -257,9 +248,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="201">
           <caret line="15" column="95" selection-start-line="15" selection-start-column="95" selection-end-line="15" selection-end-column="95" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -294,21 +282,18 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="15" column="95" lean-forward="true" selection-start-line="15" selection-start-column="95" selection-end-line="15" selection-end-column="95" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Classes/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Classes/Terminal_Commands.py">
+    <entry file="file://$PROJECT_DIR$/CodeCopy.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="95" selection-start-line="15" selection-start-column="95" selection-end-line="15" selection-end-column="95" />
+        <state relative-caret-position="276">
+          <caret line="64" column="58" selection-start-line="64" selection-start-column="58" selection-end-line="64" selection-end-column="58" />
           <folding>
-            <element signature="e#0#9#0" expanded="true" />
+            <element signature="e#0#46#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -323,13 +308,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CodeCopy.py">
+    <entry file="file://$PROJECT_DIR$/Classes/Terminal_Commands.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="276">
-          <caret line="64" column="59" selection-start-line="64" selection-start-column="59" selection-end-line="64" selection-end-column="59" />
-          <folding>
-            <element signature="e#0#46#0" expanded="true" />
-          </folding>
+          <caret line="29" column="88" selection-start-line="29" selection-start-column="88" selection-end-line="29" selection-end-column="88" />
         </state>
       </provider>
     </entry>
