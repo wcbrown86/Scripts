@@ -11,7 +11,7 @@ def on_special_copy():
         from_clipboard = '<br />\n'.join(from_clipboard.split("\n"))
         Terminal.push_to_clipboard(from_clipboard)
     else:
-        # create_popup_edit(from_clipboard)
+        create_popup_edit(from_clipboard)
         print('You Have to much text')
 
 
@@ -20,13 +20,14 @@ def check_char_count(input):
     count = len(input)
 
     if count < 4000:
-        return True
+        return False
     else:
         return False
 
 
 def create_popup_edit(input):
-    popup = PopupWindows()
+    popup = PopupWindows(input)
+    window = popup.create_window()
 
 
 on_special_copy()
