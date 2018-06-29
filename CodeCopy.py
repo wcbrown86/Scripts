@@ -13,7 +13,6 @@
 # Imports needed for the program to function. uses prebuilt classes
 # Classes are used so the code can be reused as needed.
 from Classes.Terminal_Commands import Terminal
-from Classes.PopupWindows import PopupWindows
 
 
 # This function uses the Terminal Class to pull the information from the clipboard
@@ -31,11 +30,11 @@ def on_special_copy():
     # If statement is not accurate, currently the check_char_count only returns false
     # this is currently correct for testing.
     if check_char_count(from_clipboard) is True:
-        from_clipboard = "<code> \n" + from_clipboard + "\n </code>"
+        from_clipboard = "[code] <pre> \n" + from_clipboard + "\n <pre /> [code /]"
         from_clipboard = '<br />\n'.join(from_clipboard.split("\n"))
         Terminal.push_to_clipboard(from_clipboard)
     else:
-        create_popup_edit(from_clipboard)
+        Terminal.open_VSCode(from_clipboard)
 
 
 # The function checks the length of the proved string, if the string is too long then
@@ -47,19 +46,9 @@ def check_char_count(input):
     count = len(input)
 
     if count < 4000:
-        return False
+        return True
     else:
         return False
-
-
-# This function is used to create a popup window with the text the that user is
-# trying to edit. This will allow the user to edit the size of the text to reduce it
-# to a size that can be pasted into the provided window.
-def create_popup_edit(input):
-    popup = PopupWindows(input)
-    window = popup.create_window()
-    window.setTitle("Test")
-    window.show()
 
 
 # Calls the on_special_copy function to start the program.

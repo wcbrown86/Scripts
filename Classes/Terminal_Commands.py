@@ -8,6 +8,7 @@
 
 # Needed imports
 import subprocess
+import os
 
 
 class Terminal:
@@ -34,5 +35,11 @@ class Terminal:
         paste.communicate(contents.encode('utf-8'))
 
 
-
+    def open_VSCode(contents):
+        print(contents)
+        outFile = open('temp.txt', "w")
+        outFile.write(contents)
+        outFile.close()
+        open_code = subprocess.Popen(['/usr/local/bin/code', 'temp.txt'], stdin=subprocess.PIPE)
+        output = open_code.communicate()[0]
 
