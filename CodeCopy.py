@@ -23,6 +23,9 @@
 # Classes are used so the code can be reused as needed.
 from Classes.Terminal_Commands import Terminal
 
+# The user can define the max length that the text can be, this 
+# count should be the total number of characters, not the work count.
+# If the input exceeds this count the text will be split up and displayed. 
 max_char_count = 4000
 
 # This function uses the Terminal Class to pull the information from the clipboard
@@ -55,7 +58,12 @@ def check_char_count(input):
     else:
         return False
 
-
+# This function takes the text when it is too large and splits the text per the user
+# defined max_char_count. The text is split at the new line character. Then each line 
+# is added back until the next line will exceed the max_char_count. Once this point is reached
+# four newline characters are added and the next line of text. This is to give the user 
+# a visual of the different parts of the text. So that the user can copy the text in chucnks
+# and run the program again to get the desired formatting and character count. 
 def split_chunks(contents):
     next_split = max_char_count
     string_array = contents.split('\n')
