@@ -39,7 +39,7 @@ def on_special_copy():
     # If statement is not accurate, currently the check_char_count only returns false
     # this is currently correct for testing.
     if check_char_count(from_clipboard) is True:
-        from_clipboard = "[code] <pre> \n" + from_clipboard + "\n <pre /> [code /]"
+        from_clipboard = "[code] <pre> \n" + from_clipboard + "\n </pre> [/code]"
         from_clipboard = '<br />\n'.join(from_clipboard.split("\n"))
         Terminal.push_to_clipboard(from_clipboard)
     else:
